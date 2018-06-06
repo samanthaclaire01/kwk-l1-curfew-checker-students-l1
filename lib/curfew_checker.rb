@@ -31,7 +31,6 @@ def deluxe_curfew_checker(time)
   curfew = 11
   hours_left = curfew - time
   hours_late = time - curfew
-  puts "You have #{hours_left}"
   if time == 11
      "You're on time!"
   elsif time > 11
