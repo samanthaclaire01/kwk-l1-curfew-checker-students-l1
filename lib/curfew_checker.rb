@@ -28,9 +28,9 @@ end
 complex_curfew_checker(12)
 
 def deluxe_curfew_checker(time)
-  time = 8
   curfew = 11
-  hours_left == curfew - time
+  hours_left = curfew - time
+  hours_late = time - curfew
   puts "You have #{hours_left}"
   if time == 11
      "You're on time!"
@@ -40,7 +40,7 @@ def deluxe_curfew_checker(time)
    "You have #{hours_left}"
 end
 end
-#deluxe_curfew_checker(12)
+deluxe_curfew_checker(12)
 
 def platinum_curfew_checker(current_time, curfew_time)
   if current_time <= curfew_time
