@@ -5,7 +5,7 @@ def simple_curfew_checker(time)
       puts "You're early!"
 end
 end
-simple_curfew_checker(12)
+#simple_curfew_checker(6)
 
 def curfew_checker(time)
   if time < 11
@@ -14,7 +14,7 @@ def curfew_checker(time)
    "It's after 11"
 end
 end
-curfew_checker(12)
+#curfew_checker(6)
 
 def complex_curfew_checker(time)
   if time < 11
@@ -25,7 +25,7 @@ def complex_curfew_checker(time)
      "You're late"
 end
 end
-complex_curfew_checker(12)
+#complex_curfew_checker(6)
 
 def deluxe_curfew_checker(time)
   curfew = 11
@@ -40,7 +40,7 @@ def deluxe_curfew_checker(time)
    "You have #{hours_left}"
 end
 end
-deluxe_curfew_checker(12)
+#deluxe_curfew_checker(6)
 
 def platinum_curfew_checker(current_time, curfew_time)
   if current_time <= curfew_time
@@ -52,4 +52,4 @@ def platinum_curfew_checker(current_time, curfew_time)
 end
 end
 
-platinum_curfew_checker(8, 11)
+platinum_curfew_checker(6, 11)
