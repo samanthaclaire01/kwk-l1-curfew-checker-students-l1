@@ -40,7 +40,7 @@ def deluxe_curfew_checker(time)
    "You have #{hours_left}"
 end
 end
-#deluxe_curfew_checker(6)
+deluxe_curfew_checker(6)
 
 def platinum_curfew_checker(current_time, curfew_time)
   if current_time <= curfew_time
@@ -52,4 +52,4 @@ def platinum_curfew_checker(current_time, curfew_time)
 end
 end
 
-platinum_curfew_checker(6, 11)
+#platinum_curfew_checker(6, 11)
